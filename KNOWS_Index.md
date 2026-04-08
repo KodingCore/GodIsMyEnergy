@@ -7,7 +7,6 @@
 ## I - Identification
 
 * **Facette**: KNOWS
-* **Sujet**: FILES
 * **Nom**: Index
 * **Nom du fichier**: `KNOWS_Index.md`
 * **Rôle**: Indique précisément dans quel fichier se trouve chaque information importante de la Base de Connaissances.
@@ -35,7 +34,7 @@
 * **Holdplaces et Completion** → `PRDCT_Completion.md`
 * **Structure du README** → `ARMTR_Readme.md`
 * **Définitions de tous les termes** → `KNOWS_Glossaire.md`
-* **Nommage des fichiers (Facette_Sujet_Nom)** → `KNOWS_Identification.md`
+* **Nommage des fichiers (FACETTE_Nom.md)** → `KNOWS_Identification.md`
 * **Champ d'Application** → `KNOWS_Identification.md`
 * **Gouvernance** → `KNOWS_Identification.md`
 

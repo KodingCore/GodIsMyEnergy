@@ -7,7 +7,6 @@
 ## I - Identification
 
 * **Facette**: KNOWS
-* **Sujet**: FILES
 * **Nom**: Identification
 * **Nom du fichier**: `KNOWS_Identification.md`
 * **Rôle**: Définit les règles de classification, de nommage et d’identification de tous les documents de la Base de Connaissances.
@@ -30,7 +29,7 @@
 
 ### 1. Règles de nommage des fichiers
 
-* Format obligatoire : `FACETTE_NomDuDocument.md`
+* Format obligatoire : `FACETTE_Nom.md`
 * Le sujet n’est plus inclus dans le nom du fichier (simplification)
 
 ### 2. Exemples de noms actuels
@@ -54,14 +53,13 @@
 Toute section **I - Identification** doit contenir exactement ces cinq lignes :
 
 * **Facette**
-* **Sujet**
 * **Nom**
 * **Nom du fichier**
 * **Rôle**
 
 ### 4. Contrôles Qualité
 
-* Le nom du fichier correspond-il à `FACETTE_NomDuDocument.md` ?
+* Le nom du fichier correspond-il à `FACETTE_Nom.md` ?
 * La section Identification contient-elle bien les cinq champs obligatoires ?
 * La Facette indiquée correspond-elle bien au préfixe du nom de fichier ?
 

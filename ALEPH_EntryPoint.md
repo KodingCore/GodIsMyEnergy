@@ -1,4 +1,4 @@
-# 📘 ALEPH_00_EntryPoint
+# 📘 EntryPoint
 
 ***
 
@@ -7,9 +7,8 @@
 ## I - Identification
 
 * **Facette**: ALEPH
-* **Sujet**: Fichiers - FILES
 * **Nom**: EntryPoint
-* **Nom du fichier**: `ALEPH_00_EntryPoint.md`
+* **Nom du fichier**: `ALEPH_EntryPoint.md`
 * **Rôle**: Point d’entrée unique et obligatoire de toute la Base de Connaissances. Ce fichier est le tout premier que l’IA doit lire.
 
 ***
@@ -42,19 +41,20 @@ Après avoir lu ce fichier, l’IA **doit** suivre les règles suivantes :
 
 Lire dans l’ordre :
 
-1. `KNOWS_FILES_Glossaire.md`
-2. `KNOWS_FILES_Empreintes.md`
-3. `PRDCT_FILES_Fileid.md`
+1. `KNOWS_Glossaire.md`
+2. `KNOWS_Empreintes.md`
+3. `PRDCT_Fileid.md`
 
 ***
 
 ### Niveau 2 — Initialisation Standard (recommandé pour toute génération de projet)
 
 Lire en plus :
-1. `KNOWS_FILES_Identification.md`
-2. `PRDCT_FILES_ComportementArchitectural.md`
-3. `PRDCT_FILES_Completion.md`
-4. `ARMTR_DOCMT_Readme.md`
+
+1. `KNOWS_Identification.md`
+2. `PRDCT_ComportementArchitectural.md`
+3. `PRDCT_Completion.md`
+4. `ARMTR_Readme.md`
 
 **Règle importante**:
 Une fois le niveau choisi et appliqué, si l’IA a besoin d’une information précise par la suite, elle **doit consulter** le fichier `KNOWS_FILES_Index.md` pour savoir exactement dans quel fichier se trouve l’information recherchée.
@@ -63,4 +63,5 @@ Une fois le niveau choisi et appliqué, si l’IA a besoin d’une information p
 
 ***
 
-Ce fichier est le seul point d’entrée du système. Il n’apparaît dans aucun autre document.
+*(Ce fichier est le seul point d’entrée du système. Il n’apparaît dans aucun autre document.)*,
+*(EntryPoint)*,

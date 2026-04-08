@@ -1,4 +1,4 @@
-# 📘 Modèle Markdown
+# 📘 Modele
 
 ***
 
@@ -7,8 +7,7 @@
 ## I - Identification
 
 * **Facette**: KNOWS
-* **Sujet**: FILES
-* **Nom**: Modèle Markdown
+* **Nom**: Modele
 * **Nom du fichier**: `KNOWS_Modele.md`
 * **Rôle**: Modèle officiel de référence à copier-coller pour créer ou modifier tout document de la Base de Connaissances.
 
@@ -31,7 +30,6 @@
 ### 1. Règles de nommage des fichiers
 
 * Format obligatoire : `FACETTE_NomDuDocument.md`
-* Le **Sujet** n’est plus inclus dans le nom du fichier (simplification)
 
 ### 2. Exemples de noms actuels
 
@@ -48,12 +46,7 @@
 
 ### 3. Règles du titre H1 selon la facette
 
-* **KNOWS** → **Nom** des **Sujet** de la Base de Connaissances  
-  Exemple : `# 📘 Empreintes`
-* **PRDCT** → **Nom** des **Sujet** de Production  
-  Exemple : `# 📘 Fileid`
-* **ARMTR** → **Sujet** - Armature de **Nom**  
-  Exemple : `# 📘 Readme`
+Le H1 de tout les documents est nommé par le **Nom** de leur section `I - Identification`
 
 ### 4. Structure obligatoire du document
 
@@ -67,8 +60,8 @@ Le squelette suivant doit toujours être respecté :
 ***
 
 ## I - Identification
+
 * **Facette**: ...
-* **Sujet**: ...
 * **Nom**: ...
 * **Nom du fichier**: ...
 * **Rôle**: ...

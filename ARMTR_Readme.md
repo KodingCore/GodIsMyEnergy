@@ -7,7 +7,6 @@
 ## I - Identification
 
 * **Facette**: ARMTR
-* **Sujet**: DOCMT
 * **Nom**: Readme
 * **Nom du fichier**: `ARMTR_Readme.md`
 * **Rôle**: Modèle de référence complet et personnalisable pour le fichier README.md de tous les projets générés.
