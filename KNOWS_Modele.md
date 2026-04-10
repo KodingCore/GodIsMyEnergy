@@ -98,7 +98,7 @@ Contenu...
 
 * Tous les items de liste doivent commencer par *
 * Après "Ce document DOIT être consulté à chaque fois que :", une ligne vide obligatoire
-* À la fin du fichier : une ligne vide, puis la conclusion suivie d’une virgule ,
+* À la fin du fichier : la conclusion suivie d’une virgule , puis une ligne vide
 
 ### 6. Contrôles Qualité
 
@@ -106,4 +106,5 @@ Contenu...
 * La section Identification contient-elle bien les cinq champs ?
 * Le titre H1 respecte-t-il la règle de sa facette ?
 
-*(Modèle Markdown)*,
+*(Modele)*,
+
