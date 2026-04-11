@@ -87,13 +87,13 @@ Ligne 1:
 
 #### Python (.py)
 
-Ligne 1 pour l'environnement (optionnel):
+Ligne 1 pour l'environnement (*optionnel*):
 
 ```python
 #! python3
 ```
 
-Ligne 2 pour l'encodage (OBLIGATOIRE):
+Ligne 2 pour l'encodage (**OBLIGATOIRE**):
 
 ```python
 # -*- coding: utf-8 -*-
@@ -123,13 +123,7 @@ FILEID=AppName/SousDossier/Fichier.txt
 
 #### PowerShell (.ps1)
 
-Ligne 1 pour l'élévation de privilèges (optionnel):
-
-```powershell
-#Requires -RunAsAdministrator
-```
-
-Ligne 2:
+Ligne 1:
 
 ```powershell
 # FILEID=AppName/SousDossier/Fichier.ps1
@@ -145,7 +139,7 @@ Ligne 1:
 
 #### XML & App Manifest (.xml, .manifest)
 
-Ligne 1 pour la déclaration XML (OBLIGATOIRE):
+Ligne 1 pour la déclaration XML (**OBLIGATOIRE**):
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -167,7 +161,7 @@ Ligne 1:
 
 #### Shell (.sh)
 
-Ligne 1 pour le Shebang (optionnel):
+Ligne 1 pour le Shebang (*optionnel*):
 
 ```bash
 #!/bin/bash
@@ -225,9 +219,9 @@ Ligne 1 :
 
 ### 3. Cas Particuliers
 
-* Le FILEID doit toujours être sur la **première ligne utile**
-* Le chemin doit rester **strictement relatif** à la racine du projet
-* Aucun FILEID ne doit être présent dans les fichiers PRLVR
+* Le FILEID **DOIT** toujours être sur la **première ligne utile**
+* Le chemin **DOIT** rester **strictement relatif** à la racine du projet
+* Aucun FILEID ne **DOIT** être présent dans les fichiers PRLVR
 
 ### 4. Erreurs Bloquantes
 

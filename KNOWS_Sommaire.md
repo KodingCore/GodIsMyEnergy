@@ -28,7 +28,7 @@ Ce document DOIT être consulté pour toute navigation ou mise à jour de la Bas
 ### 1. Sommaire d’Indexation
 
 * **Références à la Base de Connaissances** : Documents socles (KNOWS)
-* **Processus & Règles de Génération** : FILEID, Completion, Architecture, Generator, MultiAgentPipeline, AgentEvaluation (PRDCT)
+* **Processus & Règles de Génération** : FILEID, Completion, Architecture, Generator, MultiAgentPipeline, AgentReformulationAmelioration, AgentGenerationTests, AgentEvaluation (PRDCT)
 * **Armatures & Prélivrables** : (PRLVR)
 * **Paramètres et Options** : app, DefaultAppSettings (PRLVR)
 * **Navigation & Maintenance** : Mise à jour des documents KNOWS

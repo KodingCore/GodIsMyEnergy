@@ -17,7 +17,7 @@
 
 ## II - Champs d'Application
 
-Ce document DOIT être lu avant toute génération de projet pour garantir la cohérence de l’arborescence.
+Ce document **DOIT** être lu avant toute génération de projet pour garantir la cohérence de l’arborescence.
 
 ***
 

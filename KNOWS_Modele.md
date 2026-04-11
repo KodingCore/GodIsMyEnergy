@@ -29,7 +29,7 @@
 
 ### 1. Règles de nommage des fichiers
 
-* Format obligatoire : `FACETTE_NomDuDocument.md`
+* Format**OBLIGATOIRE** : `FACETTE_NomDuDocument.md`
 
 ### 2. Exemples de noms actuels
 
@@ -48,9 +48,9 @@
 
 Le H1 de tout les documents est nommé par le **Nom** de leur section `I - Identification`
 
-### 4. Structure obligatoire du document
+### 4. Structure OBLIGATOIRE du document
 
-Le squelette suivant doit toujours être respecté :
+Le squelette suivant **DOIT** toujours être respecté :
 
 ```markdown
 # 📘 Titre du document
@@ -97,12 +97,12 @@ Contenu...
 ### 5. Règles de formatage strictes
 
 * Tous les items de liste doivent commencer par *
-* Après "Ce document DOIT être consulté à chaque fois que :", une ligne vide obligatoire
+* Après "Ce document **DOIT** être consulté à chaque fois que :", une ligne vide **OBLIGATOIRE**
 * À la fin du fichier : la conclusion suivie d’une virgule , puis une ligne vide
 
 ### 6. Contrôles Qualité
 
-* Le nom du fichier respecte-t-il le format FACETTE_NomDuDocument.md ?
+* Le nom du fichier respecte-t-il le format `FACETTE_NomDuDocument.md ?
 * La section Identification contient-elle bien les cinq champs ?
 * Le titre H1 respecte-t-il la règle de sa facette ?
 

@@ -42,6 +42,7 @@ Ce document DOIT être consulté pour localiser une règle ou un exemple.
 * **Architecture** → `PRDCT_Architecture.md`
 * **Holdplaces et Completion** → `PRDCT_Completion.md`
 * **Generator & Pipeline multi-agents** → `PRDCT_Generator.md`, `PRDCT_MultiAgentPipeline.md`
+* **Agents du pipeline** → `PRDCT_AgentReformulationAmelioration.md`, `PRDCT_AgentGenerationTests.md`, `PRDCT_AgentEvaluation.md`
 * **Évaluation finale et boucle rétroactive** → `PRDCT_AgentEvaluation.md`
 * **Génération des dossiers** → gérée par programme tiers via FILEID (référence dans `PRDCT_Architecture.md`)
 * **Framework cible (net8.0-windows)** → `PRDCT_Architecture.md`

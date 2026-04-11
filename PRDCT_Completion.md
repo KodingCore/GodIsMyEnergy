@@ -7,10 +7,9 @@
 ## I - Identification
 
 * **Facette**: PRDCT
-* **Sujet**: FILES
 * **Nom**: Completion
 * **Nom du fichier**: `PRDCT_Completion.md`
-* **Rôle**: Répertorier toutes les holdplaces utilisées dans les fichiers de prélivraison et préciser la valeur qui doit les remplacer lors de la génération.
+* **Rôle**: Répertorier toutes les holdplaces utilisées dans les fichiers de prélivraison et préciser la valeur qui **DOIT** les remplacer lors de la génération.
 
 ***
 
@@ -46,7 +45,7 @@
 
 ### 2. Cas Particuliers
 
-* Les holdplaces doivent être utilisées **exactement** avec les mêmes noms et la même casse.
+* Les holdplaces doivent être utilisées **EXACTEMENT** avec les mêmes noms et la même casse.
 * `${AppName}` et `${UsualName}` ne doivent jamais être inversés.
 * Les listes (`${Settings}`, `${Goal}`, `${Sequencies}`, etc.) doivent être formatées en Markdown.
 

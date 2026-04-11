@@ -54,6 +54,7 @@ Ce document DOIT être lu à chaque génération de projet, immédiatement aprè
 8. Appliquer SingleInstance, RunAsAdmin, logs structurés.
 9. Format de réponse strictement formel, professionnel et concis.
 10. Toujours proposer un plan de tâches clair avant génération.
+11. Exécution silencieuse du pipeline : Tout le processus multi-agents (Reformulation → Amélioration Causale → Génération → Tests & Contrôles → Évaluation) s’exécute en arrière-plan de manière invisible. Seuls les blocs de code source finaux du projet généré (avec leurs FILEID) apparaissent dans la conversation une fois la note finale attribuée et le projet validé.
 
 ***
 
