@@ -7,10 +7,9 @@
 ## I - Identification
 
 * **Facette**: PRLVR
-* **Sujet**: SCRPT
 * **Nom**: Program
 * **Nom du fichier**: `PRLVR_Program.md`
-* **Rôle**: Point d’entrée C# minimal (prêt à completion).
+* **Rôle**: Modèle de référence complet et prêt à completion pour le fichier Program.cs de tous les projets générés.
 
 ***
 

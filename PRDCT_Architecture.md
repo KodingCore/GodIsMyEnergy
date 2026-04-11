@@ -1,4 +1,4 @@
-# 📘 Comportement Architectural
+# 📘 Architecture
 
 ***
 
@@ -7,10 +7,9 @@
 ## I - Identification
 
 * **Facette**: PRDCT
-* **Sujet**: FILES
-* **Nom**: Comportement Architectural
-* **Nom du fichier**: `PRDCT_ComportementArchitectural.md`
-* **Rôle**: Définit l’arborescence type du projet et le comportement de génération (0/1/2) de chaque dossier et fichier.
+* **Nom**: Architecture
+* **Nom du fichier**: `PRDCT_Architecture.md`
+* **Rôle**: Définit l’arborescence canonique de référence du projet et précise le mode de génération des dossiers et fichiers.
 
 ***
 
@@ -18,10 +17,7 @@
 
 ## II - Champs d'Application
 
-* Génération d’un nouveau projet
-* Modification de l’arborescence du projet
-* Ajout ou suppression d’un fichier ou dossier
-* Décision entre génération automatique et génération par l’IA
+Ce document DOIT être lu avant toute génération de projet pour garantir la cohérence de l’arborescence.
 
 ***
 
@@ -31,11 +27,13 @@
 
 ### 1. Règles de comportement
 
-* **0** → Créé automatiquement par le programme
-* **1** → Généré par l’IA uniquement à la première génération
-* **2** → Généré par l’IA à chaque modification du document
+* **0** → Création de dossier gérée exclusivement par le programme tiers (via parsing des FILEID).
+* **1** → Fichier généré par l’IA uniquement à la première génération.
+* **2** → Fichier généré par l’IA à chaque modification du document.
 
-### 2. Arborescence type du projet
+***
+
+### 2. Arborescence canonique de référence
 
 ```text
 ${AppName}/                                       0
@@ -43,6 +41,7 @@ ${AppName}/                                       0
 │   ├── Program.cs                                1
 │   ├── MainForm.cs                               2
 │   ├── ${AppName}.csproj                         1
+│   ├── app.manifest                              1
 │   ├── Managers/                                 0
 │   │   ├── ConfigManager.cs                      1
 │   │   ├── LogsManager.cs                        1
@@ -73,21 +72,21 @@ ${AppName}/                                       0
 └── README.md                                     2
 ```
 
-### 3. Cas Particuliers
+***
+
+### 3. Principe de génération des dossiers
 
 * Les dossiers marqués 0 sont créés automatiquement par le programme avant de placer les fichiers dedans.
 * Les fichiers dans Logs/, Bin/ et Obj/ sont créés dynamiquement par l’application à l’exécution.
 
-### 4. Erreurs Bloquantes
+Soit, le programme tiers analyse chaque FILEID reçu, extrait le chemin relatif et crée récursivement l’arborescence nécessaire. Aucune action de création de dossier n’est effectuée par le code C# généré ni par l’IA.
 
-* Utiliser un chiffre autre que 0, 1 ou 2
-* Mettre un fichier en 2 alors qu’il ne sera jamais modifié manuellement
-* Oublier de mettre le dossier parent en 0 quand ses fichiers sont en 1 ou 2
+***
 
-### 5. Contrôles Qualité
+### 4. Cadre technique
 
-* Tous les dossiers parents des fichiers générés sont-ils bien en 0 ?
-* Les comportements 1 et 2 sont-ils cohérents avec la fréquence de modification attendue ?
-* L’arborescence est-elle complète et sans doublon ?
+* Framework cible : net9.0-windows
+* Compilation : dotnet build (CLI)
+* Dépendances : Détection et installations automatique par le programme qui accueil les fichiers générés
 
-*(Comportement Architectural)*,
+*(Architecture)*,

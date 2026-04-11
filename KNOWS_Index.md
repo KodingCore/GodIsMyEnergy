@@ -9,7 +9,7 @@
 * **Facette**: KNOWS
 * **Nom**: Index
 * **Nom du fichier**: `KNOWS_Index.md`
-* **Rôle**: Indique précisément dans quel fichier se trouve chaque information importante de la Base de Connaissances.
+* **Rôle**: Localisation précise de chaque information importante.
 
 ***
 
@@ -17,8 +17,7 @@
 
 ## II - Champs d'Application
 
-* Recherche d’une information spécifique dont on ne connaît pas l’emplacement
-* Localisation rapide d’une règle, définition ou exemple
+Ce document DOIT être consulté pour localiser une règle ou un exemple.
 
 ***
 
@@ -28,14 +27,33 @@
 
 ### 1. Index des Informations
 
-* **FILEID** → `PRDCT_Fileid.md`
-* **Empreintes** → `KNOWS_Empreintes.md`
-* **Arborescence et comportement de génération (0/1/2)** → `PRDCT_ComportementArchitectural.md`
-* **Holdplaces et Completion** → `PRDCT_Completion.md`
-* **Structure du README** → `ARMTR_Readme.md`
+#### a) Lecture de la Base de Connaissances
+
+* **Point d'entrée des Connaissances** → `ALEPH_EntryPoint.md`
 * **Définitions de tous les termes** → `KNOWS_Glossaire.md`
+* **Empreintes** → `KNOWS_Empreintes.md`
+* **Sommaire** → `KNOWS_Sommaire.md`
 * **Nommage des fichiers (FACETTE_Nom.md)** → `KNOWS_Identification.md`
-* **Champ d'Application** → `KNOWS_Identification.md`
-* **Gouvernance** → `KNOWS_Identification.md`
+* **Format de rédaction des Connaissances** → `KNOWS_Modele.md`
+
+#### b) Documents socles de génération
+
+* **FILEID** → `PRDCT_Fileid.md`
+* **Architecture** → `PRDCT_Architecture.md`
+* **Holdplaces et Completion** → `PRDCT_Completion.md`
+* **Generator & Pipeline multi-agents** → `PRDCT_Generator.md`, `PRDCT_MultiAgentPipeline.md`
+* **Évaluation finale et boucle rétroactive** → `PRDCT_AgentEvaluation.md`
+* **Génération des dossiers** → gérée par programme tiers via FILEID (référence dans `PRDCT_Architecture.md`)
+* **Framework cible (net8.0-windows)** → `PRDCT_Architecture.md`
+
+#### c) Prélivraisons de génération
+
+* **Prélivraison de `app.manifest`** → `PRLVR_app.md`
+* **Prélivraison de `DefaultAppSettings.json`** → `PRLVR_DefaultAppSettings.md`
+* **Prélivraison de `Program.cs`** → `PRLVR_Program.md`
+* **Prélivraison de `README.md`** → `PRLVR_Readme.md`
+* **Prélivraison de `MainForm.cs`** → `PRLVR_MainForm.md`
+* **Prélivraison de `${AppName}.csproj`** → `PRLVR_Project.md`
+* **Prélivraison de `${AppName}.sln`** → `PRLVR_Solution.md`
 
 *(Index)*,

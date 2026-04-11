@@ -7,7 +7,6 @@
 ## I - Identification
 
 * **Facette**: PRDCT
-* **Sujet**: FILES
 * **Nom**: Fileid
 * **Nom du fichier**: `PRDCT_Fileid.md`
 * **Rôle**: Définir de façon stricte le format, le placement et les règles de contrôle du FILEID dans tous les fichiers générés.
@@ -40,9 +39,7 @@
 
 #### CSharp (.cs)
 
-Ligne 1:
-
-
+Ligne 1 :
 
 ```cs
 // FILEID=AppName/SousDossier/Fichier.cs
@@ -52,8 +49,6 @@ Ligne 1:
 
 Ligne 1:
 
-
-
 ```cshtml
 <!-- FILEID=AppName/SousDossier/Fichier.csproj -->
 ```
@@ -61,8 +56,6 @@ Ligne 1:
 #### JSON (.json)
 
 Première propriété de l’objet racine:
-
-
 
 ```json
 "FILEID":"AppName/SousDossier/Fichier.json"
@@ -72,8 +65,6 @@ Première propriété de l’objet racine:
 
 Ligne 1:
 
-
-
 ```markdown
 FILEID=AppName/SousDossier/Fichier.md
 ```
@@ -81,8 +72,6 @@ FILEID=AppName/SousDossier/Fichier.md
 #### Solution Visual Studio (.sln)
 
 Ligne 1:
-
-
 
 ```solution-file
 # FILEID=AppName/SousDossier/Fichier.sln
@@ -92,25 +81,25 @@ Ligne 1:
 
 Ligne 1:
 
-
-
 ```python
 # FILEID=AppName/.gitignore
 ```
 
 #### Python (.py)
 
-Ligne 1:
+Ligne 1 pour l'environnement (optionnel):
 
+```python
+#! python3
+```
 
+Ligne 2 pour l'encodage (OBLIGATOIRE):
 
 ```python
 # -*- coding: utf-8 -*-
 ```
 
-Ligne 2:
-
-
+Ligne 3:
 
 ```python
 # FILEID=AppName/SousDossier/Fichier.py
@@ -120,44 +109,57 @@ Ligne 2:
 
 Ligne 1:
 
-
-
-
-    ; FILEID=AppName/SousDossier/Fichier.ini
+```ini
+; FILEID=AppName/SousDossier/Fichier.ini
+```
 
 #### TXT (.txt)
 
 Ligne 1:
 
-
-
-
-    FILEID=AppName/SousDossier/Fichier.txt
+```text
+FILEID=AppName/SousDossier/Fichier.txt
+```
 
 #### PowerShell (.ps1)
 
-Ligne 1:
+Ligne 1 pour l'élévation de privilèges (optionnel):
 
+```powershell
+#Requires -RunAsAdministrator
+```
 
+Ligne 2:
 
 ```powershell
 # FILEID=AppName/SousDossier/Fichier.ps1
 ```
 
-#### XML (.xml)
+#### Visual Basic for Applications (.vba, .bas, .cls)
 
 Ligne 1:
 
+```vba
+' FILEID=AppName/SousDossier/Fichier.bas
+```
 
+#### XML & App Manifest (.xml, .manifest)
 
+Ligne 1 pour la déclaration XML (OBLIGATOIRE):
 
-    <!-- FILEID=AppName/SousDossier/Fichier.xml -->
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+```
+
+Ligne 2:
+
+```xml
+<!-- FILEID=AppName/SousDossier/Fichier.xml -->
+```
 
 #### YAML (.yml / .yaml)
 
 Ligne 1:
-
-
 
 ```yaml
 # FILEID=AppName/SousDossier/Fichier.yaml
@@ -165,11 +167,15 @@ Ligne 1:
 
 #### Shell (.sh)
 
-Ligne 1:
+Ligne 1 pour le Shebang (optionnel):
 
+```bash
+#!/bin/bash
+```
 
+Ligne 2:
 
-```shell
+```bash
 # FILEID=AppName/SousDossier/Fichier.sh
 ```
 
@@ -177,13 +183,45 @@ Ligne 1:
 
 Ligne 1:
 
-
-
-```batch
+```dos
 REM FILEID=AppName/SousDossier/Fichier.bat
 ```
 
+#### HTML (.html)
 
+Ligne 1:
+
+```html
+<!DOCTYPE html>
+```
+
+Ligne 2:
+
+```html
+<!-- FILEID=AppName/SousDossier/Fichier.html -->
+```
+
+#### CSS & SCSS (.css, .scss)
+
+Ligne 1:
+
+```css
+@charset "UTF-8";
+```
+
+Ligne 2:
+
+```css
+/* FILEID=AppName/SousDossier/Fichier.css */
+```
+
+#### JavaScript (.js)
+
+Ligne 1 :
+
+```JavaScript
+// FILEID=AppName/SousDossier/Fichier.js
+```
 
 ### 3. Cas Particuliers
 

@@ -9,7 +9,7 @@
 * **Facette**: ALEPH
 * **Nom**: EntryPoint
 * **Nom du fichier**: `ALEPH_EntryPoint.md`
-* **Rôle**: Point d’entrée unique et obligatoire de toute la Base de Connaissances. Ce fichier est le tout premier que l’IA doit lire.
+* **Rôle**: Point d’entrée unique et **OBLIGATOIRE** de toute la Base de Connaissances.
 
 ***
 
@@ -19,15 +19,13 @@
 
 ### 1. Champ d'Application
 
-Ce document **DOIT** être lu **en premier**, avant n’importe quel autre fichier de la Base de Connaissances.
+Ce document **DOIT** être lu en premier, avant n’importe quel autre fichier de la Base de Connaissances.
 
 ***
 
-### 2. Règle spéciale concernant ce fichier
+### 2. Règle spéciale
 
-La Facette **ALEPH** n’existe que pour ce fichier.  
-Elle est volontairement **absente** de tous les autres documents de la Base de Connaissances (Glossaire, Sommaire, Index, etc.).  
-Ce fichier ne doit jamais être mentionné ailleurs que dans lui-même.
+La Facette ALEPH n’existe que pour ce fichier et n’apparaît nulle part ailleurs.
 
 ***
 
@@ -35,33 +33,39 @@ Ce fichier ne doit jamais être mentionné ailleurs que dans lui-même.
 
 ## III - Ordre de lecture & Référencement
 
-Après avoir lu ce fichier, l’IA **doit** suivre les règles suivantes :
-
-### Niveau 1 — Initialisation Minimale (obligatoire)
-
-Lire dans l’ordre :
+### 1. Initialisation des Recherches d'Informations
 
 1. `KNOWS_Glossaire.md`
 2. `KNOWS_Empreintes.md`
-3. `PRDCT_Fileid.md`
+3. `KNOWS_Identification.md`
+4. `KNOWS_Sommaire.md`
+5. `KNOWS_Index.md`
 
 ***
 
-### Niveau 2 — Initialisation Standard (recommandé pour toute génération de projet)
+### 2. Informations Générales de Génération
 
-Lire en plus :
-
-1. `KNOWS_Identification.md`
-2. `PRDCT_ComportementArchitectural.md`
-3. `PRDCT_Completion.md`
-4. `ARMTR_Readme.md`
-
-**Règle importante**:
-Une fois le niveau choisi et appliqué, si l’IA a besoin d’une information précise par la suite, elle **doit consulter** le fichier `KNOWS_FILES_Index.md` pour savoir exactement dans quel fichier se trouve l’information recherchée.
+1. `PRDCT_Fileid.md`
 
 ***
 
+### 3. Formats de rédactions et de complètions
+
+1. `PRDCT_Architecture.md`
+2. `PRDCT_Completion.md`
+
 ***
 
-*(Ce fichier est le seul point d’entrée du système. Il n’apparaît dans aucun autre document.)*,
+### 4. Prélivrables et Standards de Génération
+
+1. `PRLVR_app.md`
+2. `PRLVR_Program.md`
+3. `PRLVR_MainForm.md`
+4. `PRLVR_Project.md`
+5. `PRLVR_Solution.md`
+6. `PRLVR_DefaultAppSettings.md`
+7. `PRLVR_Readme.md`
+
+Une fois le niveau choisi, consulter `KNOWS_Index.md` pour toute information précise.
+
 *(EntryPoint)*,

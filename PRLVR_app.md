@@ -1,4 +1,4 @@
-# 📘 App Manifest
+# 📘 AppManifest
 
 ***
 
@@ -7,10 +7,9 @@
 ## I - Identification
 
 * **Facette**: PRLVR
-* **Sujet**: SCRPT
-* **Nom**: App Manifest
-* **Nom du fichier**: `PRLVR_app.manifest.md`
-* **Rôle**: Manifeste Windows avec élévation administrateur (prêt à completion).
+* **Nom**: app
+* **Nom du fichier**: `PRLVR_app.md`
+* **Rôle**: Modèle de référence complet et prêt à completion pour le fichier app.manifest de tous les projets générés.
 
 ***
 
@@ -18,6 +17,7 @@
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
+<!-- FILEID=${AppName}/Src/app.manifest -->
 <assembly manifestVersion="1.0" xmlns="urn:schemas-microsoft-com:asm.v1">
   <assemblyIdentity version="1.0.0.0" name="${AppName}.app"/>
   <trustInfo xmlns="urn:schemas-microsoft-com:asm.v2">
@@ -43,4 +43,4 @@
 </assembly>
 ```
 
-*(App Manifest)*,
+*(AppManifest)*,

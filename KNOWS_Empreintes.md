@@ -8,7 +8,7 @@
 
 * **Facette**: KNOWS
 * **Nom**: Empreintes
-* **Nom du fichier**: `KNOWS_FILES_Empreintes.md`
+* **Nom du fichier**: `KNOWS_Empreintes.md`
 * **Rôle**: Mappe tous les mots raccourcis utilisés dans la Base de Connaissances.
 
 ***
@@ -29,22 +29,20 @@
 
 ### 1. Empreintes
 
-* **KNOWSFILES** : Tous Fichiers de la Base de Connaissances
-* **PROJECTFILES** : Tous Fichiers de la Génération d’un Projet
+* **LIVRFILES** : Tous Fichiers livrables d’un Projet
 * **FACETTES** : Liste des différentes facettes du système
 * **HOLDP** : Holdplace
+* **BDC** : Désigne la Base de Connaissances ici présente
 * **FILEID** : Identifiant unique de chaque fichier généré
-* **ARMTR** : Armature
-* **PRLVR** : Prélivraison
-* **PRDCT** : Production
+* **PRLVR** : Prélivraison où Prélivrable sous formes d'armatures où d'architectures à complèter via les holdplaces `$NomHoldPlace`
+* **PRDCT** : Préfixe des noms des documents qui concernent la production, la génération dans son mode actif
 * **COMPLETION** : Processus de remplacement des holdplaces
-* **ARCHI** : Comportement Architectural
+* **ARCHITEC** : L'Architecture et le comportement selon les fichiers de production à livrer
 * **SOCLE** : Document Socle
-* **GLOSS** : Glossaire officiel
-* **SOMMAIRE** : Sommaire de navigation
-* **INDEX** : Index de localisation des informations
-* **IDENT** : Règles d’Identification
-* **GOV** : Gouvernance
-* **CHAMPAPP** : Champ d’Application
+* **GLOSSR** : Glossaire officiel
+* **SOMMR** : Sommaire de navigation
+* **INDX** : Index de localisation des informations
+* **IDENTFCATION** : Règles d’Identification
+* **CHAMDAPPLI** : Champ d’Application
 
 *(Empreintes)*,

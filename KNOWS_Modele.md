@@ -9,7 +9,7 @@
 * **Facette**: KNOWS
 * **Nom**: Modele
 * **Nom du fichier**: `KNOWS_Modele.md`
-* **Rôle**: Modèle officiel de référence à copier-coller pour créer ou modifier tout document de la Base de Connaissances.
+* **Rôle**: Modèle officiel de référence à copier-coller pour créer ou modifier tout document de Base de Connaissances.
 
 ***
 
@@ -107,4 +107,3 @@ Contenu...
 * Le titre H1 respecte-t-il la règle de sa facette ?
 
 *(Modele)*,
-
